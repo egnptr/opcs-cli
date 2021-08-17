@@ -1,0 +1,18 @@
+{
+  "name": "opcs-cli",
+  "version": "1.0.0",
+  "description": "Command-line interface to interact with OPCS",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "opcs-cli": "./index.js"
+  },
+  "author": "Jin",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^10.2.0",
+    "yargs": "^17.1.1"
+  }
+}
