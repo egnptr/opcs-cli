@@ -9,7 +9,6 @@ const run = async () => {
   const argv = yargs(hideBin(process.argv))
     .command({
       command: "gpa",
-      aliases: ["gpa"],
       desc: "Get the latest GPA score",
       builder: (yargs) =>
         yargs.option("visible", {
@@ -19,7 +18,6 @@ const run = async () => {
     })
     .command({
       command: "schedule",
-      aliases: ["cs"],
       desc: "Screenshot the weekly class schedule",
       builder: (yargs) =>
         yargs.option("visible", {
@@ -29,7 +27,6 @@ const run = async () => {
     })
     .command({
       command: "transcript",
-      aliases: ["ts"],
       desc: "Save your course history as a transcript",
       builder: (yargs) =>
         yargs.option("visible", {
